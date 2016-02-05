@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Construction</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap-paper.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                        Project Name
+                    </a>
+                </li>
+                <li>
+                    <a href="#">Plans</a>
+                </li>
+                <li>
+                    <a href="#">Tasks</a>
+                </li>
+                <li>
+                    <a href="#">Files</a>
+                </li>
+                <li>
+                    <a href="#">People</a>
+                </li>
+                <li>
+                    <a href="#">Graphs</a>
+                </li>
+                <li>
+                    <a href="#">Settings</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+             <nav class="navbar navbar-default" role="navigation">
+                <div class="container">
+                    <div class="navbar-header col-xs-10">
+                        <form class="navbar-form ">
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <input type="text" class="remove_border form-control" placeholder="Serch For Something....">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="navbar-collapse collapse" id="navbar-collapsible">
+                        <div class="navbar-form navbar-right btn-group">
+                            <span class="pad"><i class="fa fa-bell "></i></span>
+                            <span class="pad"><i class="fa fa-bell "></i></span>
+                            <span class="pad"><i class="fa fa-bell "></i></span>
+                        </div>
+
+                    </div>
+                </div>
+            </nav>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="hided col-lg-12 col-md-12">
+                        <button type="button" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i>&nbsp;Add Task</button>
+                        <div class="btn-group" role="group">
+                            <button type="button" class="btn btn-primary btn-sm">Priority</button>
+                            <button type="button" class="btn btn-primary btn-sm">Calendar</button>
+                        </div>
+                        <button type="button" class="btn btn-primary btn-sm">Create Task</button>
+                        <button type="button" class="btn btn-primary btn-sm">Import Tasks</button>
+                        <button type="button" class="btn btn-primary btn-sm"><i class="fa fa-print"></i>&nbsp;Generate Reports</button>
+                    </div>
+                    <div class="space"></div>
+
+
+
+                      <div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <div class="row">
+                                            <div class="col-xs-2"><img src="image/g.png" class="pin-img img-responsive" /></div>
+                                            <div class="col-xs-5">
+                                                <h5>Model Heading</h5></div>
+                                            <div class="col-xs-2 col-xs-push-3">
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                            </div>
+                                        </div>
+                                        <!--
+                                        -->
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="row">
+                                            <div class="col-xs-12">
+                                                <div class="btn-group btn-group btn-group-justified" role="group" aria-label="...">
+                                                    <div class="btn-group" role="group">
+                                                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                            Dropdown
+                                                            <span class="caret"></span>
+                                                        </button>
+                                                        <ul class="dropdown-menu">
+                                                            <li><a href="#">Dropdown link</a></li>
+                                                            <li><a href="#">Dropdown link</a></li>
+                                                        </ul>
+                                                    </div>
+
+                                                    <div class="btn-group" role="group">
+                                                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                            Dropdown
+                                                            <span class="caret"></span>
+                                                        </button>
+                                                        <ul class="dropdown-menu">
+                                                            <li><a href="#">Dropdown link</a></li>
+                                                            <li><a href="#">Dropdown link</a></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="btn-group" role="group">
+                                                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                            Dropdown
+                                                            <span class="caret"></span>
+                                                        </button>
+                                                        <ul class="dropdown-menu">
+                                                            <li><a href="#">Dropdown link</a></li>
+                                                            <li><a href="#">Dropdown link</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="row well">
+                                                    <div class="col-xs-6"><img src="image/thumb.jpeg" class="img-responsive"></div>
+                                                    <div class="col-xs-6"><img src="image/thumb.jpeg" class="img-responsive"></div>
+
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-xs-12"><h5>Heading</h5></div>
+                                                </div><br/>
+                                                <div class="row">
+                                                    <div class="col-xs-12"><input type="checkbox"/> check box example</div>
+                                                </div><br/>
+                                                <div class="row">
+                                                    <div class="col-xs-12"><h5>Message Heading</h5></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                    <div class="col-lg-2 col-md-12 col-sm-12">
+                        <div class="panel panel-default ">
+                            <!-- Default panel contents -->
+                            <div class="p-head-color-red panel-heading ">Panel heading</div>
+                            <!-- List group -->
+                            <ul class="list-group" data-toggle="modal" data-target="#myModal">
+                                <li class="list-group-item">
+                                    <div class="row">
+                                        <div class="col-xs-2 g-item-pin"><img src="image/r.png" class="pin-img"></div>
+                                        <div class="col-xs-2  g-item-text">
+                                            <ul class="t-g-item-ul">
+                                                <li>#22|@js|A3.01</li>
+                                                <li>Window Gap hjhjdfdfsdfdffdsfsdfdfsdh Filled</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-12 col-sm-12">
+                        <div class="panel panel-default">
+                            <!-- Default panel contents -->
+                            <div class="panel-heading p-head-color-black">Panel heading</div>
+                            <!-- List group -->
+                            <ul class="list-group" data-toggle="modal" data-target="#myModal">
+                                <li class="list-group-item">
+                                    <div class="row">
+                                        <div class="col-xs-2 g-item-pin"><img src="image/g.png" class="pin-img"></div>
+                                        <div class="col-xs-2 g-item-text">
+                                            <ul class="t-g-item-ul">
+                                                <li>gj</li>
+                                                <li>gjsdfdsfsdf</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-12 col-sm-12">
+                        <div class="panel panel-default">
+                            <!-- Default panel contents -->
+                            <div class="panel-heading p-head-color-black">Panel heading</div>
+                            <!-- List group -->
+                            <ul class="list-group" data-toggle="modal" data-target="#myModal">
+                                <li class="list-group-item">
+                                    <div class="row">
+                                        <div class="col-xs-2 g-item-pin"><img src="image/y.png" class="pin-img"></div>
+                                        <div class="col-xs-2 g-item-text">
+                                            <ul class="t-g-item-ul">
+                                                <li>gj</li>
+                                                <li>gjsdfdsfsdf</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-12 col-sm-12">
+                        <div class="panel panel-default">
+                            <!-- Default panel contents -->
+                            <div class="panel-heading p-head-color-black">Panel heading</div>
+                            <!-- List group -->
+                            <ul class="list-group" data-toggle="modal" data-target="#myModal">
+                                <li class="list-group-item">
+                                    <div class="row">
+                                        <div class="col-xs-2 g-item-pin"><img src="image/o.png" class="pin-img"></div>
+                                        <div class="col-xs-2 g-item-text">
+                                            <ul class="t-g-item-ul">
+                                                <li>gj</li>
+                                                <li>gjsdfdsfsdf</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-12 col-sm-12">
+                        <div class="panel panel-default">
+                            <!-- Default panel contents -->
+                            <div class="panel-heading p-head-color-black">Panel heading</div>
+                            <!-- List group -->
+                            <ul class="list-group" data-toggle="modal" data-target="#myModal">
+                                <li class="list-group-item">
+                                    <div class="row">
+                                        <div class="col-xs-2 g-item-pin"><img src="image/rg.png" class="pin-img"></div>
+                                        <div class="col-xs-2 g-item-text">
+                                            <ul class="t-g-item-ul">
+                                                <li>gj</li>
+                                                <li>gjsdfdxcvxcvxcvcxvcxvxvcvxvxcsfsdf</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+        $("#menu-toggle").click(function (e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+    </script>
+    <script>
+        $('#myModal').on('shown.bs.modal', function () {
+            $('#myInput').focus()
+        })
+    </script>
+
+</body>
+
+</html>
